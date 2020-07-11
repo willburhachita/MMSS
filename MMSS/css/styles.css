@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* header */
+.header-img {
+    background-image: url('/images/bussines-2.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+.logo {
+    height: 40px;
+    width: 200px;
+    margin: 30px;
+    position: relative;
+    left: 18%;
+}
+.contact-details {
+    display: inline;
+    position: relative;
+    left: 90%;
+}
+.navigation {
+    position: relative;
+    left:  15%;
+    z-index: 2;
+    top: 1%;
+}
+.navigation ul{
+    background-color: white;
+    display: inline-block;
+
+}
+.navigation ul a li{
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    padding-right: 20px;
+    background-color: white;    
+    color:black;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-left: 30px;
+    
+}
+.navigation ul a li:hover {
+    color: #6610f2;
+    text-decoration: none;
+}
+.contact-icon {
+       height: 20px;
+    width: 20px;
+}
+.title {
+    text-align: center;
+    position: relative;
+    left: 1%;
+    top: 25%;
+    z-index: 3;
+}
+
+/* introduction */
+
+#introduction h5 {
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+    left: 1%;
+    font-size: 1rem;
+    color: gainsboro;
+}
+#introduction h3 {
+    text-align: center;
+    position: relative;
+    left: 1%;
+    font-size: 3rem;
+}
+.intro-text {
+    text-align: center;
+    margin: 40px;
+    font-size: 1.1rem;
+}
+.intro-pics {
+    height: 300px;
+    width: 350px;
+}
+
+.img__wrap {
+    position: relative;
+    height: 300px;
+    width: 350px;
+}
+.img__description {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    color: white;
+    height: 300px;
+    width: 350px;
+    padding: 35%;
+    visibility: hidden;
+    background: rgba(155, 99, 228, 0.72);
+    transition: opacity .2s, visibility .2s;
+    opacity: 0;
+    font-size: 1.5rem;
+}
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* testimonial */
+
+#testimonial {
+    background-color: gainsboro;
+    margin-top: 70px;
+}
+
+.client {
+    position: relative;
+    left: 15%;
+    margin: 30px;
+    border-radius: 50%;
+
+}
+.individual-testimonial h4{
+position: relative;
+left: 24%;
+margin-top: 20px;
+}
+.individual-testimonial h3{
+    position: relative;
+    left: 27%;
+    margin-top: 20px;
+}
+.individual-testimonial p {
+    position: relative;
+    left: 10%;
+    text-align: center;
+    width: 50%;
+}
+.testi-img {
+    position: relative;
+    top: 20%;
+    height: 500px;
+    width: 600px;
+}
+.individual-testimonial button {
+position: relative;
+left: 33%;
+z-index: 3;
+margin-top: 20px;
+height: 50px;
+width: 50px;
+margin-bottom: 20px;
+color: black;
+}
+
+
+/* study programs */
+.card {
+    padding-left: 30px;
+    width: 500px;
+    height: 300px;
+    
+    margin-left: 95px;
+    margin-bottom: 90px;
+}
+
+
+.card img {
+    position: relative;
+    right: 13px;
+    width: 400px;
+    height: 300px;
+}
+.card img:hover {
+    webkit-filter: blur(4px); 
+    filter: blur(4px);
+}
+.study-program-title {
+    margin: 30px;
+}
+.study-program-title h3 {
+    margin-top: 70px;
+    font-size: 1.2rem;
+    position: relative;
+    left: 45%;
+}
+.study-program-title h2 {
+    font-weight: 150%;
+    margin-bottom: 70px;
+    position: relative;
+    left: 41.5%;
+}
+
+
+/* Join Us */
+.applying-form {
+    position: relative;
+    left: 5%;
+    margin-top: 10%;
+}
+
+.form-group input {
+    width: 40%;
+}
+.join-us button:hover {
+    background-color: rgba(155, 99, 228, 0.72);
+    width: 120px;
+    height: 50px;
+}
+
+.inspiration div {
+    border-radius: 28%;
+    margin-top: 90px;
+    height: 90%;
+    width: 150%;
+    z-index: 1;
+    background-color: 		rgb(188, 193, 207);
+}
+.inspiration img {
+    position: relative;
+    z-index: 3;
+    left: 15%;
+    top: -550px;
+    height: 80%;
+    width: 30%;
+    border-radius: 10%;
+}
+.inspiration-moto h2 {
+    position: relative;
+    top: 30%;
+    left: 17%;
+    font-size: 3rem;
+    z-index: 4;
+    color: white;
+}
+
+.contact-details-footer {
+    position: relative;
+    left: 5%;
+    margin-top: 10%;
+    
+}
+.contact-details-footer div button  {
+    margin-top: 3%;
+    width: 170px;
+    height: 50px;
+}
+.contact-details-footer div button:hover {
+    background-color: rgba(155, 99, 228, 0.72);
+    width: 200px;
+    height: 100;
+}
+.contact-details-footer div .vertical-line {
+border-left: 3px solid rgb(188, 193, 207);
+  height: 80px;
+     
+}
+.contact-details-footer div .actual-details {
+    position: relative;
+    left: 10%;
+    top: -48%;
+}
+/* footer */
+footer {
+    background-color: rgb(84, 84, 84);
+    padding: 5%;
+}
+.footer-social .footer-logo {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.footer-social p {
+    color: white;
+    font-size: 1rem;
+}
+.footer-study-program img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 5%;
+}
+.footer-study-program h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-application h3 {
+    color: white;
+}
+.footer-application a:hover {
+    text-decoration: none;
+}
+.footer-application a p {
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+/*................................................TABLET............................................ */
+@media (max-width: 500px) {
+    * {
+        background-color: lightblue;
+    }
+}
+/* @media(min-width: 768px){
+    body {
+        background-color: red;
+    }
+
+} */
